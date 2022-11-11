@@ -1,0 +1,78 @@
+* { padding:0; border:none; outline:none; margin:0; font-family:helvetica;}
+
+/* Sprite Background/CSS from http://us.battle.net/sc2/en/game/unit/ */
+table { display: none; font-size:10px; color:#fff; font-weight:900; float:left; margin-right:6px; margin-top:6px; }
+td {  width:100px; }
+/*div { float:left; }*/
+tr:nth-child(even) {background: #222}
+tr:nth-child(odd) {background: #333}
+td:first-child div { float:none; }
+div, div span {display:block; width:54px; text-indent: 2px; }
+div span {height:53px; background:url('unit-thumbs-54x49-table.gif') no-repeat;}
+body {color: #FFF; background-color: #333; text-align: center;}
+a {color:  #FFF;}
+
+/* Protoss */
+.probe {background-position:0 -12px;}
+.zealot {background-position:-54px -12px;}
+.stalker {background-position:-108px -12px;}
+.sentry {background-position:-162px -12px;}
+.observer {background-position:-216px -12px;}
+.immortal {background-position:0 -70px;}
+.warp-prism {background-position:-54px -70px;}
+.colossus {background-position:-108px -70px;}
+.phoenix {background-position:-162px -71px;}
+.void-ray {background-position:-216px -71px;}
+.high-templar {background-position:0 -131px;}
+.dark-templar {background-position:-54px -131px;}
+.archon {background-position:-108px -131px;}
+.carrier {background-position:-162px -131px;}
+.mothership {background-position:-216px -131px;}
+
+/*.probe, .zealot, .stalker, .sentry, .observer, .immortal, .warp-prism, .colossus, .phoenix, .void-ray, .high-templar, .dark-templar, .archon, .carrier, .mothership {border-bottom:4px solid #017e59;}
+*/
+/* Terran */
+.scv {background-position:0 -209px;}
+.marine {background-position:-54px -209px;}
+.marauder {background-position:-108px -209px;}
+.reaper{background-position:-162px -209px;}
+.ghost {background-position:-216px -209px;}
+.hellion {background-position:0 -268px;}
+.siege-tank {background-position:-54px -268px;}
+.thor {background-position:-108px -268px;}
+.viking {background-position:-162px -268px;}
+.medivac {background-position:-216px -268px;}
+.raven {background-position:0 -327px;}
+.banshee {background-position:-53px -326px;}
+.battlecruiser {background-position:-108px -326px;}
+
+/*.scv, .marine, .marauder, .reaper, .ghost, .hellion, .siege-tank, .thor, .viking, .medivac, .raven, .banshee , .battlecruiser {border-bottom:4px solid #004dac;}
+*/
+/* Zerg */
+.larva {background-position:0 -402px;}
+.drone {background-position:-54px -402px;}
+.overlord {background-position:-108px -402px;}
+.zergling{background-position:-162px -402px;}
+.queen {background-position:-216px -402px;}
+.hydralisk {background-position:0 -460px;}
+.baneling {background-position:-54px -460px;}
+.overseer {background-position:-108px -464px;}
+.roach {background-position:-162px -460px;}
+.infestor {background-position:-216px -460px;}
+.mutalisk {background-position:0 -518px;}
+.corruptor {background-position:-54px -518px;}
+.nydus-worm {background-position:-108px -518px;}
+.ultralisk {background-position:-162px -522px;}
+.brood-lord {background-position:-216px -518px;}
+
+/*.larva, .drone, .overlord, .zergling, .queen, .hydralisk , .baneling, .overseer, .roach, .infestor, .mutalisk, .corruptor, .nydus-worm, .ultralisk, .brood-lord {border-bottom:4px solid #8a0d02;}
+*/
+#outer {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+#inner {
+	width: 400px;
+  display: inline-block !important;
+}
