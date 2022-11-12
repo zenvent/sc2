@@ -1,261 +1,139 @@
-
-<!DOCTYPE html>
 <html>
-<head>
-<script src="sc2.js"></script>
-<link rel="stylesheet" href="sc2.css">
-<center><title>Starcraft II Unit Counter Charts</title><center>
-</head>
-
-
-<body>
-<br/>
-<h1>Starcraft II Unit Counter Charts</h1>
-<br/>
-<br/>
-<a href="#" onclick="showTable('ptable');">Protoss</a>
-<a href="#" onclick="showTable('ttable');">Terran</a>
-<a href="#" onclick="showTable('ztable');">Zerg</a>
-<br/>
-<br/>
-<div id="outer">  
-    <div id="inner">
-			<table cellspacing="0" cellpadding="0" id="ptable">
-				<tbody>
-					<tr>
-					<td colspan="4"><h2>Protoss Counters</h2></td>
-					</tr>	
-					<tr>
-						<td>Protoss Unit</td>
-						<td>Protoss Counter</td>
-						<td>Terran Counter</td>
-						<td>Zerg Counter</td>
-					</tr>
-					<tr>
-						<td><div><span class="zealot"></span></div></td>
-						<td><div><span class="colossus"></span></div><div><span class="sentry"></span></div><div><span class="void-ray"></span></div></td>
-						<td><div><span class="marauder">Early</span></div><div><span class="hellion"></span></div><div><span class="marine">Upgraded</span></div></td>
-						<td><div><span class="roach"></span></div><div><span class="mutalisk"></span></div><div><span class="brood-lord"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="sentry"></span></div></td>
-						<td><div><span class="colossus"></span></div></td>
-						<td><div><span class="hellion"></span></div><div><span class="banshee"></span></div><div><span class="siege-tank"></span></div></td>
-						<td><div><span class="brood-lord"></span></div><div><span class="ultralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="immortal"></span></div><div><span class="zealot">Soft</span></div></td>
-						<td><div><span class="marauder"></span></div><div><span class="siege-tank"></span></div></td>
-						<td><div><span class="roach"></span></div><div><span class="hydralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="immortal"></span></div></td>
-						<td><div><span class="zealot"></span></div><div><span class="sentry"></span></div></td>
-						<td><div><span class="marine"></span></div><div><span class="ghost"></span></div></td>
-						<td><div><span class="hydralisk"></span></div><div><span class="zergling"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="colossus"></span></div></td>
-						<td><div><span class="immortal"></span></div><div><span class="void-ray"></span></div></td>
-						<td><div><span class="siege-tank"></span></div><div><span class="viking"></span></div></td>
-						<td><div><span class="corruptor"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="void-ray"></span></div></td>
-						<td><div><span class="stalker">Soft</span></div></td>
-						<td><div><span class="viking"></span></div><div><span class="thor">Lots</span></div></td>
-						<td><div><span class="hydralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="phoenix"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="marine"></span></div><div><span class="thor"></span></div></td>
-						<td><div><span class="hydralisk"></span></div><div><span class="corruptor">Soft</span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="carrier"></span></div><div><span class="mothership"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="viking"></span></div></td>
-						<td><div><span class="corruptor"></span></div></td>
-					</tr>		
-					<tr>
-						<td><div><span class="warp-prism"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="viking"></span></div><div><span class="marine"></span></div></td>
-						<td><div><span class="mutalisk"></span></div><div><span class="hydralisk"></span></div></td>
-					</tr>	
-					<tr>
-						<td><div><span class="high-templar"></span></div></td>
-						<td><div><span class="colossus"></span></div></td>
-						<td><div><span class="siege-tank"></span></div><div><span class="ghost"></span></div></td>
-						<td><div><span class="ultralisk"></span></div></td>
-					</tr>	
-					<tr>
-						<td><div><span class="dark-templar"></span></div></td>
-						<td><div><span class="void-ray"></span></div><div><span class="immortal"></span></div></td>
-						<td><div><span class="banshee"></span></div></td>
-						<td><div><span class="mutalisk"></span></div><div><span class="brood-lord"></span></div></td>
-					</tr>			
-				<tbody>
-			</table>
-
-			<table cellspacing="0" cellpadding="0" id="ttable">
-				<tbody>
-					<tr>
-					<td colspan="4"><h2>Terran Counters</h2></td>
-					</tr>	
-					<tr>
-						<td>Terran Unit</td>
-						<td>Protoss Counter</td>
-						<td>Terran Counter</td>
-						<td>Zerg Counter</td>
-					</tr>
-					<tr>
-						<td><div><span class="marine"></span></div></td>
-						<td><div><span class="sentry"></span></div><div><span class="colossus"></span></div></td>
-						<td><div><span class="siege-tank"></span></div><div><span class="hellion"></span></div></td>
-						<td><div><span class="baneling"></span></div><div><span class="roach"></span></div><div><span class="ultralisk"></span></div><div><span class="brood-lord"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="marauder"></span></div></td>
-						<td><div><span class="immortal"></span></div><div><span class="void-ray"></span></div><div><span class="zealot"></span></div></td>
-						<td><div><span class="siege-tank"></span></div><div><span class="banshee"></span></div></td>
-						<td><div><span class="hydralisk"></span></div><div><span class="mutalisk"></span></div><div><span class="brood-lord"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="reaper"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="marauder"></span></div><div><span class="hellion"></span></div></td>
-						<td><div><span class="roach"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="ghost"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="siege-tank"></span></div></td>
-						<td><div><span class="roach"></span></div><div><span class="ultralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="hellion"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="marauder"></span></div><div><span class="thor"></span></div></td>
-						<td><div><span class="roach"></span></div><div><span class="mutalisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="siege-tank"></span></div></td>
-						<td><div><span class="immortal"></span></div><div><span class="void-ray"></span></div><div><span class="phoenix"></span></div></td>
-						<td><div><span class="banshee"></span></div></td>
-						<td><div><span class="brood-lord"></span></div><div><span class="mutalisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="thor"></span></div></td>
-						<td><div><span class="immortal"></span></div></td>
-						<td><div><span class="siege-tank"></span></div><div><span class="marauder"></span></div><div><span class="battlecruiser"></span></div></td>
-						<td><div><span class="zergling"></span></div><div><span class="hydralisk"></span></div><div><span class="brood-lord"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="banshee"></span></div></td>
-						<td><div><span class="phoenix"></span></div><div><span class="void-ray"></span></div></td>
-						<td><div><span class="viking"></span></div><div><span class="thor"></span></div></td>
-						<td><div><span class="mutalisk"></span></div><div><span class="corruptor"></span></div></td>
-					</tr>		
-					<tr>
-						<td><div><span class="viking"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="viking"></span></div><div><span class="thor"></span></div></td>
-						<td><div><span class="hydralisk"></span></div></td>
-					</tr>	
-					<tr>
-						<td><div><span class="raven"></span></div></td>
-						<td><div><span class="stalker"></span></div></td>
-						<td><div><span class="viking"></span></div><div><span class="thor"></span></div></td>
-						<td><div><span class="corruptor"></span></div></td>
-					</tr>	
-					<tr>
-						<td><div><span class="medivac"></span></div></td>
-						<td><div><span class="stalker"></span></div><div><span class="phoenix"></span></div><div><span class="void-ray"></span></div></td>
-						<td><div><span class="viking"></span></div></td>
-						<td><div><span class="mutalisk"></span></div><div><span class="hydralisk"></span></div></td>
-					</tr>	
-					<tr>
-						<td><div><span class="battlecruiser"></span></div></td>
-						<td><div><span class="void-ray"></span></div><div><span class="sentry"></span></div></td>
-						<td><div><span class="viking"></span></div></td>
-						<td><div><span class="corruptor"></span></div></td>
-					</tr>			
-				<tbody>
-			</table>
-
-			<table cellspacing="0" cellpadding="0" id="ztable">
-				<tbody>
-					<tr>
-					<td colspan="4"><h2>Zerg Counters</h2></td>
-					</tr>	
-					<tr>
-						<td>Zerg Unit</td>
-						<td>Protoss Counter</td>
-						<td>Terran Counter</td>
-						<td>Zerg Counter</td>
-					</tr>
-					<tr>
-						<td><div><span class="zergling"></span></div></td>
-						<td><div><span class="zealot"></span></div><div><span class="colossus"></span></div></td>
-						<td><div><span class="hellion"></span></div></td>
-						<td><div><span class="roach"></span></div><div><span class="ultralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="roach"></span></div></td>
-						<td><div><span class="immortal"></span></div><div><span class="void-ray"></span></div></td>
-						<td><div><span class="siege-tank"></span></div><div><span class="marauder"></span></div></td>
-						<td><div><span class="mutalisk"></span></div><div><span class="brood-lord"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="hydralisk"></span></div></td>
-						<td><div><span class="sentry"></span></div><div><span class="colossus"></span></div></td>
-						<td><div><span class="hellion"></span></div><div><span class="siege-tank"></span></div></td>
-						<td><div><span class="brood-lord"></span></div><div><span class="roach"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="mutalisk"></span></div></td>
-						<td><div><span class="sentry"></span></div><div><span class="phoenix"></span></div></td>
-						<td><div><span class="thor"></span></div></td>
-						<td><div><span class="hydralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="corruptor"></span></div></td>
-						<td><div><span class="stalker"></span></div><div><span class="sentry"></span></div></td>
-						<td><div><span class="thor"></span></div><div><span class="marine"></span></div></td>
-						<td><div><span class="hydralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="infestor"></span></div></td>
-						<td><div><span class="immortal"></span></div><div><span class="colossus"></span></div></td>
-						<td><div><span class="siege-tank"></span></div><div><span class="ghost"></span></div></td>
-						<td><div><span class="brood-lord"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="ultralisk"></span></div></td>
-						<td><div><span class="immortal"></span></div><div><span class="void-ray"></span></div></td>
-						<td><div><span class="banshee"></span></div><div><span class="thor">Lots</span></div></td>
-						<td><div><span class="hydralisk"></span></div><div><span class="brood-lord"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="baneling"></span></div></td>
-						<td><div><span class="colossus"></span></div></td>
-						<td><div><span class="siege-tank"></span></div></td>
-						<td><div><span class="mutalisk"></span></div><div><span class="roach"></span></div><div><span class="ultralisk"></span></div></td>
-					</tr>
-					<tr>
-						<td><div><span class="brood-lord"></span></div></td>
-						<td><div><span class="stalker"></span></div><div><span class="void-ray"></span></div></td>
-						<td><div><span class="viking"></span></div></td>
-						<td><div><span class="corruptor"></span></div></td>
-					</tr>
-				<tbody>
-			</table>
-		</div>
-	</div>
-</div>
-</body>
-<script> showTable('ptable'); </script>
+    <header>
+        <title>Starcraft 2 Counters Cheat Sheet</title>
+        <script type="text/htmlpreview" src="sc2.js"></script>
+        <link rel="stylesheet" href="sc2.css">
+    </header>
+    <body>
+        <h1>Starcraft 2 Counters Cheat Sheet</h1>
+        <div class="logo-container">
+            
+            <img class="logo" src="img/terran/terran_logo.png"/>
+            <img class="logo" src="img/zerg/zerg_logo.png"/>
+            <img class="logo" src="img/protoss/protoss_logo.png"/>
+        </div>
+        <div>
+            <!-- Protoss Table -->
+            <table id="protoss">
+                <tbody>
+                    <tr>
+                        <th class="headers">Protoss</th>
+                        <th class="headers">Strong Against</th>
+                        <th class="headers">Weak Against</th>
+                    </tr>
+                    <!-- Zealot -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/hellion.png"/>
+                                <span class="caption">Hellion</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/colosis.png"/>
+                                <span class="caption">Colosis</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- STALKER -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/reaper.png"/>
+                                <span class="caption">Reaper</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/voidray.png"/>
+                                <span class="caption">Void Ray</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Sentry -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/protoss/sentry.png"/>
+                                <span class="caption">Sentry</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/reaper.png"/>
+                                <span class="caption">Reaper</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
 </html>
