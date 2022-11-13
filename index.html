@@ -7,13 +7,13 @@
     <body>
         <h1>SC2 Unit Strength/Weakness 2022</h1>
         <div class="logo-container">
-            <img class="logo" src="img/terran/terran_logo.png"/>
-            <img class="logo" src="img/zerg/zerg_logo.png"/>
-            <img class="logo" src="img/protoss/protoss_logo.png"/>
+            <a href="#" onclick="showTable('terran')"><img class="logo" id="terran-logo" src="img/terran/terran_logo.png"/></a>
+            <a href="#" onclick="showTable('zerg')"><img class="logo" id="zerg-logo" src="img/zerg/zerg_logo.png"/></a>
+            <a href="#" onclick="showTable('protoss')"><img class="logo" id="protoss-logo" src="img/protoss/protoss_logo.png"/></a>
         </div>
         <div>
             <!-- Terran Table -->
-            <table style="display: none" id="terran">
+            <table id="terran">
                 <tbody>
                     <tr>
                         <th class="headers">Terran</th>
@@ -570,7 +570,7 @@
                 </tbody>
             </table>
             <!-- Zerg Table -->
-            <table style="" id="zerg">
+            <table style="display: none" id="zerg">
                 <tbody>
                     <tr>
                         <th class="headers">Zerg</th>
