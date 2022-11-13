@@ -1,576 +1,1104 @@
 <html>
     <header>
-        <title>Starcraft 2 Counters Cheat Sheet</title>
+        <title>SC2 Unit Strength/Weakness</title>
         <script src="sc2.js"></script>
         <link rel="stylesheet" href="sc2.css">
     </header>
     <body>
-        <h1>Starcraft 2 Counters Cheat Sheet</h1>
+        <h1>SC2 Unit Strength/Weakness 2022</h1>
         <div class="logo-container">
             <img class="logo" src="img/terran/terran_logo.png"/>
             <img class="logo" src="img/zerg/zerg_logo.png"/>
             <img class="logo" src="img/protoss/protoss_logo.png"/>
         </div>
         <div>
-        <!-- Terran Table -->
-        <table id="terran">
-            <tbody>
-                <tr>
-                    <th class="headers">Terran</th>
-                    <th class="headers">Strong Against</th>
-                    <th class="headers">Weak Against</th>
-                </tr>
-                <!-- Marine -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/marine.png"/>
-                            <span class="caption">Marine</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/hydralisk.png"/>
-                            <span class="caption">Hydralisk</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/immortal.png"/>
-                            <span class="caption">Immortal</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/seigetank.png"/>
-                            <span class="caption">Seige Tank</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/baneling.png"/>
-                            <span class="caption">Baneling</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/colossus.png"/>
-                            <span class="caption">Colossus</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Marauder -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/thor.png"/>
-                            <span class="caption">Thor</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/roach.png"/>
-                            <span class="caption">Roach</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marine.png"/>
-                            <span class="caption">Marine</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/zergling.png"/>
-                            <span class="caption">Zergling</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/zealot.png"/>
-                            <span class="caption">Zealot</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Reaper -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/reaper.png"/>
-                            <span class="caption">Reaper</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/scv.png"/>
-                            <span class="caption">SCV</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/drone.png"/>
-                            <span class="caption">Drone</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/probe.png"/>
-                            <span class="caption">Probe</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/roach.png"/>
-                            <span class="caption">Roach</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Ghost -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/ghost.png"/>
-                            <span class="caption">Ghost</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/raven.png"/>
-                            <span class="caption">Raven</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/infestor.png"/>
-                            <span class="caption">Infestor</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/high_templar.png"/>
-                            <span class="caption">High Templar</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/zergling.png"/>
-                            <span class="caption">Zergling</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Hellion -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/hellion.png"/>
-                            <span class="caption">Hellion</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/marine.png"/>
-                            <span class="caption">Marine</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/zergling.png"/>
-                            <span class="caption">Zergling</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/zealot.png"/>
-                            <span class="caption">Zealot</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/roach.png"/>
-                            <span class="caption">Roach</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                </tr>
-                 <!-- Hellbat -->
-                 <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/hellbat.png"/>
-                            <span class="caption">Hellbat</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/zerg/zergling.png"/>
-                            <span class="caption">zergling</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/zealot.png"/>
-                            <span class="caption">zealot</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Viking</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/baneling.png"/>
-                            <span class="caption">Baneling</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Widow Mine -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/widow_mine.png"/>
-                            <span class="caption">Widow Mine</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/zerg/zergling.png"/>
-                            <span class="caption">Zergling</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/mutalisk.png"/>
-                            <span class="caption">Mutalisk</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/zealot.png"/>
-                            <span class="caption">Zealot</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/ravager.png"/>
-                            <span class="caption">Ravager</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalkery</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Seige Tank -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/seigetank.png"/>
-                            <span class="caption">Seige Tank</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/marine.png"/>
-                            <span class="caption">Marine</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/roach.png"/>
-                            <span class="caption">Roach</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/banshee.png"/>
-                            <span class="caption">Banshee</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/mutalisk.png"/>
-                            <span class="caption">Mutalisk</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/immortal.png"/>
-                            <span class="caption">Immortal</span>
-                        </div>
-                    </td>
-                </tr>               
-                <!-- Cyclone -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/cyclone.png"/>
-                            <span class="caption">Cyclone</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/roach.png"/>
-                            <span class="caption">Roach</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/adept.png"/>
-                            <span class="caption">Adept</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/seigetank.png"/>
-                            <span class="caption">Seige Tank</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/zergling.png"/>
-                            <span class="caption">Zergling</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/immortal.png"/>
-                            <span class="caption">Immortal</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Thor -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/thor.png"/>
-                            <span class="caption">Thor</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/marine.png"/>
-                            <span class="caption">Marine</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/mutalisk.png"/>
-                            <span class="caption">Mutalisk</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marauder.png"/>
-                            <span class="caption">Marauder</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/zergling.png"/>
-                            <span class="caption">Zergling</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/immortal.png"/>
-                            <span class="caption">Immortal</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Viking -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/viking.png"/>
-                            <span class="caption">Viking</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/battlecruiser.png"/>
-                            <span class="caption">Battlecruiser</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/brood_lord.png"/>
-                            <span class="caption">Brood Lord</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/marine.png"/>
-                            <span class="caption">Marine</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/hydralisk.png"/>
-                            <span class="caption">Hydralisk</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/stalker.png"/>
-                            <span class="caption">Stalker</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Banshee -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/banshee.png"/>
-                            <span class="caption">Banshee</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/seigetank.png"/>
-                            <span class="caption">Seige Tank</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/ultralisk.png"/>
-                            <span class="caption">Ultralisk</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/colossus.png"/>
-                            <span class="caption">Colossus</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/viking.png"/>
-                            <span class="caption">Viking</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/hydralisk.png"/>
-                            <span class="caption">Hydralisk</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/pheonix.png"/>
-                            <span class="caption">Pheonix</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Raven -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/raven.png"/>
-                            <span class="caption">Raven</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/banshee.png"/>
-                            <span class="caption">Banshee</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/roach.png"/>
-                            <span class="caption">Roach</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/dark_templar.png"/>
-                            <span class="caption">Dark Templar</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/ghost.png"/>
-                            <span class="caption">Ghost</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/corruptor.png"/>
-                            <span class="caption">Corruptor</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/pheonix.png"/>
-                            <span class="caption">Pheonix</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Liberator -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/liberator.png"/>
-                            <span class="caption">Liberator</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/zerg/mutalisk.png"/>
-                            <span class="caption">Mutalisk</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/pheonix.png"/>
-                            <span class="caption">Pheonix</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/viking.png"/>
-                            <span class="caption">Viking</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/corruptor.png"/>
-                            <span class="caption">Corruptor</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/void_ray.png"/>
-                            <span class="caption">Void Ray</span>
-                        </div>
-                    </td>
-                </tr>
-                <!-- Battlecruiser -->
-                <tr>
-                    <td class="single-unit">
-                        <div class="unit">
-                            <img src="img/terran/battlecruiser.png"/>
-                            <span class="caption">Battlecruiser</span>
-                        </div>
-                    </td>
-                    <td class="multiple-strength">
-                        <div class="unit strength">
-                            <img src="img/terran/thor.png"/>
-                            <span class="caption">Thor</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/zerg/mutalisk.png"/>
-                            <span class="caption">Mutalisk</span>
-                        </div>
-                        <div class="unit strength">
-                            <img src="img/protoss/carrier.png"/>
-                            <span class="caption">Carrier</span>
-                        </div>
-                    </td>
-                    <td class="multiple-weakness">
-                        <div class="unit weakness">
-                            <img src="img/terran/viking.png"/>
-                            <span class="caption">Viking</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/zerg/corruptor.png"/>
-                            <span class="caption">Corruptor</span>
-                        </div>
-                        <div class="unit weakness">
-                            <img src="img/protoss/void_ray.png"/>
-                            <span class="caption">Void Ray</span>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+            <!-- Terran Table -->
+            <table style="display: none" id="terran">
+                <tbody>
+                    <tr>
+                        <th class="headers">Terran</th>
+                        <th class="headers">Strong Against</th>
+                        <th class="headers">Weak Against</th>
+                    </tr>
+                    <!-- Marine -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/baneling.png"/>
+                                <span class="caption">Baneling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/colossus.png"/>
+                                <span class="caption">Colossus</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Marauder -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/thor.png"/>
+                                <span class="caption">Thor</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Reaper -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/reaper.png"/>
+                                <span class="caption">Reaper</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/scv.png"/>
+                                <span class="caption">SCV</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/drone.png"/>
+                                <span class="caption">Drone</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/probe.png"/>
+                                <span class="caption">Probe</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Ghost -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/ghost.png"/>
+                                <span class="caption">Ghost</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/raven.png"/>
+                                <span class="caption">Raven</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/infestor.png"/>
+                                <span class="caption">Infestor</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/high_templar.png"/>
+                                <span class="caption">High Templar</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Hellion -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/hellion.png"/>
+                                <span class="caption">Hellion</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Hellbat -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/hellbat.png"/>
+                                <span class="caption">Hellbat</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/baneling.png"/>
+                                <span class="caption">Baneling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Widow Mine -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/widow_mine.png"/>
+                                <span class="caption">Widow Mine</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/ravager.png"/>
+                                <span class="caption">Ravager</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalkery</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Seige Tank -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/banshee.png"/>
+                                <span class="caption">Banshee</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                    </tr>               
+                    <!-- Cyclone -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/cyclone.png"/>
+                                <span class="caption">Cyclone</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/adept.png"/>
+                                <span class="caption">Adept</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Thor -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/thor.png"/>
+                                <span class="caption">Thor</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Viking -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/battlecruiser.png"/>
+                                <span class="caption">Battlecruiser</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/brood_lord.png"/>
+                                <span class="caption">Brood Lord</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Banshee -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/banshee.png"/>
+                                <span class="caption">Banshee</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/ultralisk.png"/>
+                                <span class="caption">Ultralisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/colossus.png"/>
+                                <span class="caption">Colossus</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/pheonix.png"/>
+                                <span class="caption">Pheonix</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Raven -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/raven.png"/>
+                                <span class="caption">Raven</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/banshee.png"/>
+                                <span class="caption">Banshee</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/dark_templar.png"/>
+                                <span class="caption">Dark Templar</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/ghost.png"/>
+                                <span class="caption">Ghost</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/corruptor.png"/>
+                                <span class="caption">Corruptor</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/pheonix.png"/>
+                                <span class="caption">Pheonix</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Liberator -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/liberator.png"/>
+                                <span class="caption">Liberator</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/pheonix.png"/>
+                                <span class="caption">Pheonix</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/corruptor.png"/>
+                                <span class="caption">Corruptor</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/void_ray.png"/>
+                                <span class="caption">Void Ray</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Battlecruiser -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/terran/battlecruiser.png"/>
+                                <span class="caption">Battlecruiser</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/thor.png"/>
+                                <span class="caption">Thor</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/carrier.png"/>
+                                <span class="caption">Carrier</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/corruptor.png"/>
+                                <span class="caption">Corruptor</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/void_ray.png"/>
+                                <span class="caption">Void Ray</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Zerg Table -->
+            <table style="" id="zerg">
+                <tbody>
+                    <tr>
+                        <th class="headers">Zerg</th>
+                        <th class="headers">Strong Against</th>
+                        <th class="headers">Weak Against</th>
+                    </tr>
+                    <!-- Zergling -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/hellion.png"/>
+                                <span class="caption">hellion</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/baneling.png"/>
+                                <span class="caption">Baneling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/colossus.png"/>
+                                <span class="caption">Colossus</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Queen -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/queen.png"/>
+                                <span class="caption">Queen</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/hellion.png"/>
+                                <span class="caption">Hellion</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/void_ray.png"/>
+                                <span class="caption">Void Ray</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Baneling -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/baneling.png"/>
+                                <span class="caption">Baneling</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Roach -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/hellion.png"/>
+                                <span class="caption">Hellion</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/ultralisk.png"/>
+                                <span class="caption">Ultralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Ravager -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/ravager.png"/>
+                                <span class="caption">Ravager</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/lurker.png"/>
+                                <span class="caption">Lurker</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/sentry.png"/>
+                                <span class="caption">Sentry</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/marauder.png"/>
+                                <span class="caption">Marauder</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/ultralisk.png"/>
+                                <span class="caption">Ultralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Hydralisk -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/banshee.png"/>
+                                <span class="caption">Banshee</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/void_ray.png"/>
+                                <span class="caption">Void Ray</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/colossus.png"/>
+                                <span class="caption">Colossus</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Lurker -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/lurker.png"/>
+                                <span class="caption">Lurker</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/ultralisk.png"/>
+                                <span class="caption">Ultralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/disruptor.png"/>
+                                <span class="caption">Disruptor</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Infestor -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/infestor.png"/>
+                                <span class="caption">Infestor</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/ghost.png"/>
+                                <span class="caption">Ghost</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/ultralisk.png"/>
+                                <span class="caption">Ultralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/high_templar.png"/>
+                                <span class="caption">High Templar</span>
+                            </div>
+                        </td>
+                    </tr>               
+                    <!-- Ultralisk -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/ultralisk.png"/>
+                                <span class="caption">Ultralisk</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/marine.png"/>
+                                <span class="caption">Marine</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/zergling.png"/>
+                                <span class="caption">Zergling</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/zealot.png"/>
+                                <span class="caption">Zealot</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/ghost.png"/>
+                                <span class="caption">Ghost</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/brood_lord.png"/>
+                                <span class="caption">Brood Lord</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/immortal.png"/>
+                                <span class="caption">Immortal</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Overseer -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/overseer.png"/>
+                                <span class="caption">Overseer</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/banshee.png"/>
+                                <span class="caption">Banshee</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/roach.png"/>
+                                <span class="caption">Roach</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/dark_templar.png"/>
+                                <span class="caption">Dark Templar</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Mutalisk -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/brood_lord.png"/>
+                                <span class="caption">Brood Lord</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/void_ray.png"/>
+                                <span class="caption">Void Ray</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/thor.png"/>
+                                <span class="caption">Thor</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/corruptor.png"/>
+                                <span class="caption">Corruptor</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/pheonix.png"/>
+                                <span class="caption">Pheonix</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Corruptor -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/corruptor.png"/>
+                                <span class="caption">Corruptor</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/battlecruiser.png"/>
+                                <span class="caption">Battlecruiser</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/pheonix.png"/>
+                                <span class="caption">Pheonix</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/void_ray.png"/>
+                                <span class="caption">Void Ray</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Viper -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/viper.png"/>
+                                <span class="caption">Viper</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/seigetank.png"/>
+                                <span class="caption">Seige Tank</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/hydralisk.png"/>
+                                <span class="caption">Hydralisk</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/colossus.png"/>
+                                <span class="caption">Colossus</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/viking.png"/>
+                                <span class="caption">Viking</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/pheonix.png"/>
+                                <span class="caption">Pheonix</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Swarm Host -->
+                    <tr>
+                        <td class="single-unit">
+                            <div class="unit">
+                                <img src="img/zerg/swarm_host.png"/>
+                                <span class="caption">Swarm Host</span>
+                            </div>
+                        </td>
+                        <td class="multiple-strength">
+                            <div class="unit strength">
+                                <img src="img/terran/scv.png"/>
+                                <span class="caption">SCV</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/zerg/drone.png"/>
+                                <span class="caption">Drone</span>
+                            </div>
+                            <div class="unit strength">
+                                <img src="img/protoss/probe.png"/>
+                                <span class="caption">Probe</span>
+                            </div>
+                        </td>
+                        <td class="multiple-weakness">
+                            <div class="unit weakness">
+                                <img src="img/terran/banshee.png"/>
+                                <span class="caption">Banshee</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/zerg/mutalisk.png"/>
+                                <span class="caption">Mutalisk</span>
+                            </div>
+                            <div class="unit weakness">
+                                <img src="img/protoss/stalker.png"/>
+                                <span class="caption">Stalker</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
             <!-- Protoss Table -->
-            <table id="protoss">
+            <table style="display: none" id="protoss">
                 <tbody>
                     <tr>
                         <th class="headers">Protoss</th>
