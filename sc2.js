@@ -15,3 +15,5 @@ function showTable(tableName){
     // Enable one button effect
     document.getElementById(tableName+"-logo").classList.add('logo-active');
 }
+
+showTable('zerg');
