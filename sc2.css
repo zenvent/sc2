@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'sc2'; /*a name to be used later*/
+    src: url('Starcraft.ttf'); /*URL to font*/
+}
+
 body {
     background-color: #000D20;
     color: #0F68C8;
@@ -7,6 +12,9 @@ body {
 
 h1 {
     padding-top: 20px;
+    color: #0F68C8;
+    font-size: 30px;
+    font-family: 'sc2';
 }
 
 table {
@@ -62,6 +70,7 @@ table, th, td {
     background-color: rgba(255, 255, 255, 0);
     border-spacing: 0px;
     color: #7AC2F0;
+    font-family: 'sc2';
 }
 
 .logo {
