@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'sc2'; /*a name to be used later*/
-    src: url('/Starcraft.ttf'); /*URL to font*/
+    src: url('./Starcraft.ttf'); /*URL to font*/
 }
 
 body {
